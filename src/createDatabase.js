@@ -4,7 +4,8 @@ const data = require("./data");
 
 // Connect to DATABASE
 const db_URI = `${process.env.MONGODB_URI}`;
-const DATABASE_URL ="mongodb+srv://moulikarmakar7596:bSco0O9cFYdi9R94@youtubesubscribers.gcl84hd.mongodb.net/Subscriber";
+const DATABASE_URL =
+  "mongodb+srv://moulikarmakar7596:bSco0O9cFYdi9R94@ac-vbrlaxn.gcl84hd.mongodb.net/Subscriber?retryWrites=true&w=majority";
 mongoose.connect(DATABASE_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
